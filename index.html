@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Perros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Galería de Razas de Perros 🐶</h1>
+
+    <div class="search-bar">
+      <input type="text" id="breed-input" placeholder="Escribe una raza (en inglés)...">
+      <button id="search-button">Buscar</button>
+      <button id="toggle-list-button">Mostrar lista de razas</button>
+    </div>
+
+    <div id="breed-list-container" class="breed-list-container" style="display:none;">
+      <h3>Listado de razas disponibles:</h3>
+      <ul id="breed-list"></ul>
+    </div>
+
+    <div id="gallery" class="gallery"></div>
+    <div id="error-message" class="error-message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
