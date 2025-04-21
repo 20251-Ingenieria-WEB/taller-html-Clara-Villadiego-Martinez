@@ -27,7 +27,7 @@ Permitir al usuario buscar y visualizar imágenes de distintas razas de perros u
 
 ## Autor
 
-**Nombre:** Clara Villadiego Martinez
+**Nombre:** Clara Villadiego Martinez  
 **Materia:** Ingeniería Web  
 **Profesor:** Juan Pablo Arango
 
